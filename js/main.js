@@ -3,7 +3,7 @@ function loopDePares(numero){
         if ((i+numero)%2 == 0){
             console.log(`El número ${numero+i} es par.`)
         } else{
-            console.log(`${numero+i}`)
+            console.log(i)
         }
 }
 loopDePares(5);
